@@ -578,6 +578,11 @@ header {
         margin-bottom: 25px;
     }
 
+    #home {
+        background-size: 60%;
+        background-position: top 150% left 60%;
+    }
+
     #menu {
         display: flex;
         align-items: center;
@@ -660,16 +665,17 @@ header {
     }
 
     #contact {
-        padding: 40px;
+        display: flex;
+        flex-direction: column;
     }
 
     .contact-content {
-        margin: 0;
+        margin: 20px;
         font-size: 15px;
     }
 
     .maps {
-        width: 50%;
+        width: 80%;
         padding: 10px;
     }
 
