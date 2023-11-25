@@ -320,6 +320,14 @@ header {
     justify-content: center;
 }
 
+.portfolio-content .portfolio-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .video-content {
     position: relative;
     text-align: center;
